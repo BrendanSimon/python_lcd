@@ -2,7 +2,7 @@
 
 
 class LcdApi(object):
-    """Implements the API for talking with n LCD. This class only knows what
+    """Implements the API for talking with an LCD. This class only knows what
     commands to send to the LCD, and not how t get them to the LCD.
 
     It is expected that a derived class will implement the hal_xxx functions.
